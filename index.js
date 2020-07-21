@@ -2,13 +2,13 @@ var animal = 'dog'
 
 function myAnimal() {
   // You should not need to modify this function
-  return function innerAnimal(){
-  var animal = 'cat';
-  }
-
   return animal
 }
 
+function innerAnimal(){
+var animal = 'cat';
+return 'cat';
+}
 
 
   // The tests expect this function to return `animal` just like the previous function
